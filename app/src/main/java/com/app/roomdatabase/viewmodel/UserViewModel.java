@@ -40,4 +40,10 @@ public class UserViewModel extends AndroidViewModel{
     public LiveData<List<User>> getAllUser(){
         return allUser;
     }
+
+    @Override
+    protected void onCleared() {
+        super.onCleared();
+        //Todo cancel all network operation.
+    }
 }

@@ -1,7 +1,6 @@
 # RoomDatabase with Livedata
 
 Gradle dependencies
-
 def room_version = "2.1.0-rc01"
 def lifecycle_version = "2.0.0"
 
